@@ -1,0 +1,10 @@
+*.sh text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.tsv text eol=lf
+*.bz2 binary
+*.png binary
+# Preserve recovered evidence byte-for-byte, including original line endings.
+/data/** -text
+/evidence/** -text
+/provenance/** -text

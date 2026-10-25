@@ -1,0 +1,12 @@
+
+Cluster summary:
+            mutations  mean_VAF_pct  mean_CP_pct
+cluster_id                                      
+0                  32         7.633        9.602
+1                  48        47.868       60.218
+2                  38         0.890        1.153
+3                  10        21.526       33.166
+4                   5        27.724       44.358
+5                   1        19.308       23.668
+
+Figures saved in: D:\codex\2026-10-25\referenced-chatgpt-conversation-this-is-an\work\original-scripts-test\results\pyclone\single_test\figures

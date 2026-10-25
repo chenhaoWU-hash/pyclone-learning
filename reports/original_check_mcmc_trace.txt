@@ -1,0 +1,13 @@
+Saved plot: results\pyclone\single_test\mcmc_trace.png
+
+=== Post-burnin comparison ===
+alpha first_half= 2.2436 second_half= 1.9193 lag1_autocorr= 0.54
+precision first_half= 802.5065 second_half= 639.473 lag1_autocorr= 0.997
+cluster_count first_half= 8.435 second_half= 7.575 lag1_autocorr= 0.7771
+CP_NA18507 first_half= 0.4578 second_half= 0.4986 lag1_autocorr= 0.1089
+CP_NA19240 first_half= 0.6188 second_half= 0.6179 lag1_autocorr= 0.1403
+
+=== Co-clustering frequency ===
+After burn-in: 0.515
+Iterations 200-599: 0.4575
+Iterations 600-999: 0.5725
