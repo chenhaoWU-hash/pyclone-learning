@@ -21,8 +21,8 @@ Core input fields are `mutation_id`, `ref_counts`, `var_counts`, `normal_cn`, `m
 
 ## Recovery record
 
-The current workspace initially had no original data. The path in the referenced conversation led to `D:/PHD/TestPyclone`, where four scripts, the example input, generated YAML/configuration, tables, figures, and all four compressed trace files were found. The original data, docs, and notebooks directories had no files.
+The initial workspace had no original data. The original project was subsequently located on the local machine, where four scripts, the example input, generated YAML/configuration, tables, figures, and all four compressed trace files were found. Private absolute paths are replaced by `/path/to/pyclone-project` in this public version. The original data, docs, and notebooks directories had no files.
 
 The conversation retrieval interface exposed five recent exchanges and an image attachment path. Older assistant responses were content-reference markers rather than readable explanations. Consequently, these notes rely on the recovered files and recomputed values, and do not claim to recover missing historical commands or environment details.
 
-The local upstream `cli.py` declares a 0.13.1 interface. Its Git metadata could not be read, so the exact upstream commit and any local source changes remain unknown. The original runtime package versions and random seed were not recovered. Checksums in `provenance/manifest.json` establish which local bytes were used; they do not prove equality to a particular upstream commit.
+The local upstream `cli.py` declares a 0.13.1 interface. Its Git metadata could not be read, so the exact upstream commit and any local source changes remain unknown. The original runtime package versions and random seed were not recovered. Checksums in `provenance/manifest.json` establish the distributed file bytes; original SHA-256 values are also retained for the three archived files whose paths were sanitized. They do not prove equality to a particular upstream commit. Only filesystem paths were changed in those archived files; mutation data, traces, model parameters, and analysis logic are unchanged.

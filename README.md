@@ -4,7 +4,7 @@ Learning notes and reproducible reanalysis of a single-sample experiment with **
 
 ## What this repository contains
 
-The input, four original analysis scripts, configuration, result tables, figures, and complete compressed MCMC traces were recovered from the original local project. The working scripts retain the original analysis logic and add configurable paths and validation. Original scripts are preserved unchanged in `provenance/original_scripts/`.
+The input, four original analysis scripts, configuration, result tables, figures, and complete compressed MCMC traces were recovered from the original local project. The working scripts retain the original analysis logic and add configurable paths and validation. Recovered scripts are retained in `provenance/original_scripts/`; private absolute paths in two scripts have been replaced with generic placeholders. Their analysis logic is unchanged.
 
 The shared path helper, ARI calculation, approximate ESS calculation, joint-event diagnostics, and shell workflow are **reconstructed additions**. The data and traces are real archived files, not synthetic replacements.
 
@@ -37,8 +37,8 @@ These commands read the included `data/` and `evidence/single_test/` files and w
 To use an external original project without copying its official PyClone checkout:
 
 ```sh
-python scripts/validate_pyclone_clusters.py --data-root /path/to/TestPyclone
-python scripts/check_mcmc_trace.py --data-root /path/to/TestPyclone
+python scripts/validate_pyclone_clusters.py --data-root /path/to/pyclone-project
+python scripts/check_mcmc_trace.py --data-root /path/to/pyclone-project
 python scripts/plot_pyclone_single.py --result-dir /path/to/run --output-dir results/new-review
 ```
 
@@ -52,14 +52,14 @@ python scripts/plot_pyclone_single.py --result-dir /path/to/run --output-dir res
 4. [Validation and the confusion matrix](docs/04-results-validation.md)
 5. [MCMC diagnostics and uncertainty](docs/05-mcmc-diagnostics.md)
 
-See [environment.md](environment.md) for dependencies and a fresh-inference workflow. `reports/` contains verified reanalysis outputs, environment versions, and test records. `provenance/manifest.json` records source paths and SHA-256 checksums.
+See [environment.md](environment.md) for dependencies and a fresh-inference workflow. `reports/` contains verified reanalysis outputs, environment versions, and test records. `provenance/manifest.json` records project-relative source paths and SHA-256 checksums, including original hashes for path-sanitized files.
 
 ```text
 data/                  One real example input TSV
 docs/                  English learning notes
 scripts/               Configurable analysis scripts and reconstructed runner
 evidence/single_test/  Archived configuration, YAML, tables, traces, and figures
-provenance/            Unmodified original scripts and upstream attribution
+provenance/            Path-sanitized recovered scripts and upstream attribution
 reports/               Verified reanalysis outputs and test records
 ```
 

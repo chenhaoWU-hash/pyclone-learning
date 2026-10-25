@@ -9,4 +9,4 @@ cluster_id
 4                   5        27.724       44.358
 5                   1        19.308       23.668
 
-Figures saved in: D:\codex\2026-10-25\referenced-chatgpt-conversation-this-is-an\work\original-scripts-test\results\pyclone\single_test\figures
+Figures saved in: /path/to/verification-workspace\results\pyclone\single_test\figures

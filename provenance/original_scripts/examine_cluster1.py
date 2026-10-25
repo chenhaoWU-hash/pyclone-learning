@@ -2,7 +2,7 @@
 import pandas as pd
 from pathlib import Path
 
-root = Path("/mnt/d/PHD/TestPyclone")
+root = Path("/path/to/pyclone-project")
 
 file = (
     root

@@ -23,4 +23,4 @@ samples:
     tumour_content:
       value: 1.0
 trace_dir: trace
-working_dir: /mnt/d/PHD/TestPyclone/results/pyclone/single_test
+working_dir: /path/to/pyclone-project/results/pyclone/single_test

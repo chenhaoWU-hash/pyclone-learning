@@ -14,7 +14,7 @@ python scripts/examine_cluster1.py
 python scripts/check_mcmc_trace.py
 ```
 
-Run these commands from the repository root. They default to the included archived input/results. To analyze a new run, add `--result-dir results/pyclone/single_test`; to read the external original project, add `--data-root /path/to/TestPyclone`. Input and result paths can be overridden separately. No official Git checkout needs to be committed. Figures use the noninteractive Agg backend.
+Run these commands from the repository root. They default to the included archived input/results. To analyze a new run, add `--result-dir results/pyclone/single_test`; to read the external original project, add `--data-root /path/to/pyclone-project`. Input and result paths can be overridden separately. No official Git checkout needs to be committed. Figures use the noninteractive Agg backend.
 
 For the exact installed versions recorded during preparation, use `python -m pip install -r reports/requirements-tested.txt` in a compatible Python/platform environment. Version ranges alone do not guarantee future dependency resolution will select those versions.
 
@@ -44,4 +44,4 @@ Fresh inference is a new experiment and need not match the old chain. Use distin
 
 Track the notes, working scripts, one small example input, archived evidence, and verified reports. Do not commit the official source checkout, virtual environments, or unrelated external data. `evidence/` and `reports/` are intentionally tracked, while generated `results/` is ignored.
 
-All project documentation is in English. Original scripts and upstream notices remain preserved as source evidence. No new license is granted to upstream materials; review the included attribution and upstream terms before redistributing or reusing them.
+All project documentation is in English. Recovered scripts are retained as source evidence, with private paths sanitized where necessary; upstream notices are unchanged. No new license is granted to upstream materials; review the included attribution and upstream terms before redistributing or reusing them.

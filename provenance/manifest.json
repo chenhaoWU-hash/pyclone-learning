@@ -2,91 +2,97 @@
   {
     "file": "evidence/single_test/annotated_mutations.tsv",
     "sha256": "61984eedc05235dd10a8f150b7d9f282252da45cd9f925f3fba4940c41b8ee7f",
-    "source": "D:\\PHD\\TestPyclone\\results\\pyclone\\single_test\\annotated_mutations.tsv"
+    "source": "results/pyclone/single_test/annotated_mutations.tsv"
   },
   {
     "file": "evidence/single_test/config.yaml",
-    "sha256": "55f8ecbfc59a96a7e450091fed869d9ab225048ee7340f7424035511633a421d",
-    "source": "D:\\PHD\\TestPyclone\\results\\pyclone\\single_test\\config.yaml"
+    "sha256": "cdc7b10f72f4876524a5a8625daf0ccdae82b434b964889a9050e90b8b36a729",
+    "source": "results/pyclone/single_test/config.yaml",
+    "original_sha256": "55f8ecbfc59a96a7e450091fed869d9ab225048ee7340f7424035511633a421d",
+    "modification": "Private absolute project path replaced with /path/to/pyclone-project; all other bytes preserved."
   },
   {
     "file": "evidence/single_test/figures/cluster_distributions.png",
     "sha256": "2ac62c56a558fdc249faf2d52d083810ac65907a2acbd923c4c011df16bdc684",
-    "source": "D:\\PHD\\TestPyclone\\results\\pyclone\\single_test\\figures\\cluster_distributions.png"
+    "source": "results/pyclone/single_test/figures/cluster_distributions.png"
   },
   {
     "file": "evidence/single_test/figures/cluster_summary.csv",
     "sha256": "140c67819d9e15c7d26147ef56743a9eb7aeb2284e0a3cde1c2d9ed4f05ef497",
-    "source": "D:\\PHD\\TestPyclone\\results\\pyclone\\single_test\\figures\\cluster_summary.csv"
+    "source": "results/pyclone/single_test/figures/cluster_summary.csv"
   },
   {
     "file": "evidence/single_test/figures/vaf_vs_cellular_prevalence.png",
     "sha256": "5b774588904e4d0bad973726b47168ff7e87ff8524a13fb053732eb1fdad28dc",
-    "source": "D:\\PHD\\TestPyclone\\results\\pyclone\\single_test\\figures\\vaf_vs_cellular_prevalence.png"
+    "source": "results/pyclone/single_test/figures/vaf_vs_cellular_prevalence.png"
   },
   {
     "file": "evidence/single_test/mcmc_trace.png",
     "sha256": "19aef288b69998c11d0de96b5042fc2c75fe91180b9f26bb12f1046ae85100bd",
-    "source": "D:\\PHD\\TestPyclone\\results\\pyclone\\single_test\\mcmc_trace.png"
+    "source": "results/pyclone/single_test/mcmc_trace.png"
   },
   {
     "file": "evidence/single_test/tables/cluster.tsv",
     "sha256": "d3620f23d87e842bfb165fe39ce6c81be3700cd3b61e08af3714ef33a10faee4",
-    "source": "D:\\PHD\\TestPyclone\\results\\pyclone\\single_test\\tables\\cluster.tsv"
+    "source": "results/pyclone/single_test/tables/cluster.tsv"
   },
   {
     "file": "evidence/single_test/tables/loci.tsv",
     "sha256": "610972b3c3e8f4279ea0aa4ac648eae3f6358fe7c491fe207fdee50e7990558c",
-    "source": "D:\\PHD\\TestPyclone\\results\\pyclone\\single_test\\tables\\loci.tsv"
+    "source": "results/pyclone/single_test/tables/loci.tsv"
   },
   {
     "file": "evidence/single_test/trace/alpha.tsv.bz2",
     "sha256": "7f64c264e7ec343d5342d97512e0fcec74081bff80afd9052a75391f433c942c",
-    "source": "D:\\PHD\\TestPyclone\\results\\pyclone\\single_test\\trace\\alpha.tsv.bz2"
+    "source": "results/pyclone/single_test/trace/alpha.tsv.bz2"
   },
   {
     "file": "evidence/single_test/trace/labels.tsv.bz2",
     "sha256": "36fe413e51737cca30cd7af91da95f52c351954642a61a8450c2b5526a63c96a",
-    "source": "D:\\PHD\\TestPyclone\\results\\pyclone\\single_test\\trace\\labels.tsv.bz2"
+    "source": "results/pyclone/single_test/trace/labels.tsv.bz2"
   },
   {
     "file": "evidence/single_test/trace/precision.tsv.bz2",
     "sha256": "8693cc82ef34dd7fd7b6d01c0a5beb6d865a43901fdcfea9da0936107888f6ff",
-    "source": "D:\\PHD\\TestPyclone\\results\\pyclone\\single_test\\trace\\precision.tsv.bz2"
+    "source": "results/pyclone/single_test/trace/precision.tsv.bz2"
   },
   {
     "file": "evidence/single_test/trace/SRR385938.cellular_prevalence.tsv.bz2",
     "sha256": "a3ae9348a628942400de90502322528f9e89ee1f4c63a6eb6081b9ea5d7cfd52",
-    "source": "D:\\PHD\\TestPyclone\\results\\pyclone\\single_test\\trace\\SRR385938.cellular_prevalence.tsv.bz2"
+    "source": "results/pyclone/single_test/trace/SRR385938.cellular_prevalence.tsv.bz2"
   },
   {
     "file": "evidence/single_test/yaml/SRR385938.yaml",
     "sha256": "97e4d2f3ced56f59fd926ad9e0d76c0f72e4fc4db6f7da55365eb8b72c937ae7",
-    "source": "D:\\PHD\\TestPyclone\\results\\pyclone\\single_test\\yaml\\SRR385938.yaml"
+    "source": "results/pyclone/single_test/yaml/SRR385938.yaml"
   },
   {
     "file": "provenance/original_scripts/check_mcmc_trace.py",
     "sha256": "df9da9251813477c5d24b51a4c7c23f0ba0c6684f9c7dad7a04a36d1c4beb77c",
-    "source": "D:\\PHD\\TestPyclone\\scripts\\check_mcmc_trace.py"
+    "source": "scripts/check_mcmc_trace.py"
   },
   {
     "file": "provenance/original_scripts/examine_cluster1.py",
-    "sha256": "669386e7fe8be8ea7c18fb00df3d360403848bb314f9e0efadd6051faa02b4db",
-    "source": "D:\\PHD\\TestPyclone\\scripts\\examine_cluster1.py"
+    "sha256": "2265b485ec77a68c872a9a08f5ae320ff1169e0513c008fb79969d8b726fda24",
+    "source": "scripts/examine_cluster1.py",
+    "original_sha256": "669386e7fe8be8ea7c18fb00df3d360403848bb314f9e0efadd6051faa02b4db",
+    "modification": "Private absolute project path replaced with /path/to/pyclone-project; all other bytes preserved."
   },
   {
     "file": "provenance/original_scripts/plot_pyclone_single.py",
     "sha256": "d7e9d877f75d20cef17a043b65eb161a01a80d3f9e4235a52f17d1b990d23507",
-    "source": "D:\\PHD\\TestPyclone\\scripts\\plot_pyclone_single.py"
+    "source": "scripts/plot_pyclone_single.py"
   },
   {
     "file": "provenance/original_scripts/validate_pyclone_clusters.py",
-    "sha256": "f16c134d6a760b245dd9d5bc1b82dd11ba55df03d93348622b9a8335510798fa",
-    "source": "D:\\PHD\\TestPyclone\\scripts\\validate_pyclone_clusters.py"
+    "sha256": "62a0350831688862584da4e6007df9ca2b6634270e2ef5b9bb510ae47f7c018e",
+    "source": "scripts/validate_pyclone_clusters.py",
+    "original_sha256": "f16c134d6a760b245dd9d5bc1b82dd11ba55df03d93348622b9a8335510798fa",
+    "modification": "Private absolute project path replaced with /path/to/pyclone-project; all other bytes preserved."
   },
   {
     "file": "data/SRR385938.tsv",
     "sha256": "5c6682ff7f4edf238fd07e41bcdbfd25451971f2da403d347d2b9213d1671aed",
-    "source": "D:\\PHD\\TestPyclone\\pyclone\\examples\\mixing\\tsv\\SRR385938.tsv"
+    "source": "pyclone/examples/mixing/tsv/SRR385938.tsv"
   }
 ]

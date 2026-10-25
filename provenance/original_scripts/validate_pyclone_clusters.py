@@ -3,7 +3,7 @@ from pathlib import Path
 import pandas as pd
 
 # Project location
-root = Path("/mnt/d/PHD/TestPyclone")
+root = Path("/path/to/pyclone-project")
 
 raw_file = root / "pyclone/examples/mixing/tsv/SRR385938.tsv"
 result_file = root / "results/pyclone/single_test/tables/loci.tsv"

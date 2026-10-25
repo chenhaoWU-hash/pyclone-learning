@@ -7,7 +7,7 @@ PASS examine_cluster1: --data-root points outside repository
 PASS check_mcmc_trace: repository-root execution on included real data
 PASS check_mcmc_trace: --data-root points outside repository
 PASS archived data: exact IDs, 134 mutations, 6 clusters, ARI, 1000 x 134 trace, co-clustering and joint event counts
-PASS original input/results/scripts: SHA-256 matches source manifest
-PASS byte-identical original plot and trace scripts on shadow copy; original validation/examination tested through documented path adaptations
+PASS recovered input/results/scripts before path sanitization: SHA-256 matched source manifest
+PASS byte-identical original plot and trace scripts were tested on a shadow copy; original validation/examination were tested through documented path adaptations
 NOT RUN: PyClone inference and fresh chain generation; no original seed/complete legacy environment recovered.
 PASS shell syntax check (-n); inference was not executed.

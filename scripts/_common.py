@@ -5,7 +5,7 @@ import pandas as pd
 REPO=Path(__file__).resolve().parents[1]
 def options(description, trace=False):
     p=argparse.ArgumentParser(description=description)
-    p.add_argument('--data-root',type=Path,default=REPO,help='Original TestPyclone root, or this repository')
+    p.add_argument('--data-root',type=Path,default=REPO,help='Original project root, or this repository')
     p.add_argument('--result-dir',type=Path,help='Override results directory')
     p.add_argument('--input',type=Path,help='Override raw TSV')
     p.add_argument('--output-dir',type=Path,default=REPO/'results/review')

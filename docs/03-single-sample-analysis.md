@@ -19,7 +19,7 @@ Source: `evidence/single_test/config.yaml`.
 |Precision Gamma prior: shape, rate|1.0, 0.001|
 |Precision proposal precision|0.01|
 
-Gamma parameters use shape/rate, not shape/scale. The archived configuration contains the original WSL working path and mutation-file layout. Preserve it as evidence; generate a new configuration for a new run.
+Gamma parameters use shape/rate, not shape/scale. The archived configuration preserves the original mutation-file layout, with its private working directory replaced by `/path/to/pyclone-project`. It is a path-sanitized record; generate a new configuration for a new run.
 
 The diagnostic analysis uses saved trace rows 200–999 inclusive (zero-based), burn-in 200, and thinning 1: 800 retained states. The historical `build_table` command was not recovered. The reconstructed workflow explicitly uses these burn-in/thinning values but does not claim to recover the original command. The historical seed and input-prior CLI choice were not saved in the configuration; the archived mutation YAML preserves the actual feasible states.
 
